@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #505050;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 900;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1em;
+}
+
+#intro {
+    width: 100vw;
+    height: 30vh;
+    top: 30vh;
+    text-align: center;
+    font-size: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    background: black;
+    line-height: 220%;
+    color: #f5d431;
+}
+
+#content {
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    width: 100vw;
+    height: 70vh;
+    overflow: hidden;
+    background: black;
+    color: #f5d431;
+    text-align: center;
+}
+
+#candidate {
+    opacity: 0.3
+}
+
+.btn {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    font-size: 0.7em;
+    color: #f5d431;
+    background: black;
+    padding: 2px 2px 2px 2px;
+    border: solid #f5d431 3px;
+}
+
+.btn:hover {
+    background: #f5d431;
+    color: black;
+    text-decoration: none;
+}
+
+#searchInput {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    font-size: 0.7em;
+    color: #f5d431;
+    border: none;
+    background: black;
+    padding: 2px 2px 2px 2px;
+    border-bottom: solid #f5d431 3px;
+}
